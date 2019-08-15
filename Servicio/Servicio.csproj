@@ -75,10 +75,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\SGCPA2.mdf" />
-    <Content Include="App_Data\SGCPA2_log.ldf">
-      <DependentUpon>SGCPA2.mdf</DependentUpon>
-    </Content>
     <Content Include="Web.config" />
     <Content Include="SGCPA.asmx" />
   </ItemGroup>
