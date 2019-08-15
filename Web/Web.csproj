@@ -143,7 +143,6 @@
     <Content Include="Presentacion\Login\Login.aspx" />
     <Content Include="Presentacion\Terreno\Terreno.aspx" />
     <Content Include="Presentacion\Index\Index.aspx" />
-    <Content Include="Presentacion\Usuarios\RegistrarUsuario.aspx" />
     <Content Include="vendor\font-awesome-4.7\fonts\fontawesome-webfont.eot" />
     <Content Include="vendor\font-awesome-4.7\fonts\fontawesome-webfont.ttf" />
     <Content Include="vendor\font-awesome-4.7\fonts\fontawesome-webfont.woff" />
@@ -320,13 +319,6 @@
     </Compile>
     <Compile Include="Presentacion\Index\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Presentacion\Usuarios\RegistrarUsuario.aspx.cs">
-      <DependentUpon>RegistrarUsuario.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Presentacion\Usuarios\RegistrarUsuario.aspx.designer.cs">
-      <DependentUpon>RegistrarUsuario.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Presentacion\Master\Site1.Master.cs">
