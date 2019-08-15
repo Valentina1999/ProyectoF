@@ -14,7 +14,7 @@
                         <label for="text-input" class=" form-control-label">Largo</label>
                     </div>
                     <div class="col-12 col-md-4">
-                        <input type="number" id="Largo" name="Largo" class="form-control" required>
+                        <input type="number" id="Largo" name="Largo" class="form-control" required="required">
                     </div>
                     <div class="col-13 col-md-1">
                         <label for="text-input" class=" form-control-label">Ancho</label>
