@@ -140,6 +140,7 @@
     <Content Include="fonts\poppins\poppins-v5-latin-regular.woff2" />
     <None Include="packages.config" />
     <Content Include="form.html" />
+    <Content Include="Presentacion\Login\Login.aspx" />
     <Content Include="Presentacion\Terreno\Terreno.aspx" />
     <Content Include="Presentacion\Index\Index.aspx" />
     <Content Include="vendor\font-awesome-4.7\fonts\fontawesome-webfont.eot" />
@@ -298,6 +299,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Presentacion\Login\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Login\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Terreno\Terreno.aspx.cs">
       <DependentUpon>Terreno.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
