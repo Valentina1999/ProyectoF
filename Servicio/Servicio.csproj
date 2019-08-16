@@ -75,14 +75,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\SGCPA2.mdf" />
-    <Content Include="App_Data\SGCPA2_log.ldf">
-      <DependentUpon>SGCPA2.mdf</DependentUpon>
-    </Content>
     <Content Include="Web.config" />
     <Content Include="SGCPA.asmx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Datos\clTerreno.cs" />
     <Compile Include="Datos\clConexion.cs" />
     <Compile Include="Datos\clUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,6 +87,9 @@
       <DependentUpon>SGCPA.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,5 +1,4 @@
-﻿using Servicio.Datos;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -19,11 +18,15 @@ namespace Servicio
     {
 
         [WebMethod]
-        public int mtdRegistrarUsuario(clUsuario objUsu)
+        public string mtdRegistrarTerreno()
         {
-            clUsuario objClUsuario= new clUsuario();
-            int resul = objClUsuario.mtdRegistrarUsuario(objUsu);
-            return resul;
+            
+        }
+
+        [WebMethod]
+        public string HelloWorld()
+        {
+            return "Hola a todos";
         }
     }
 }

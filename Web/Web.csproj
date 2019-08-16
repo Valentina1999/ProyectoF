@@ -48,8 +48,6 @@
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -68,13 +66,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServicioA\SGCPA.disco" />
-    <None Include="Connected Services\ServicioA\configuration91.svcinfo" />
-    <None Include="Connected Services\ServicioA\configuration.svcinfo" />
-    <None Include="Connected Services\ServicioA\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
     <Content Include="fonts\poppins\poppins-v5-latin-100.eot" />
     <Content Include="fonts\poppins\poppins-v5-latin-100.ttf" />
     <Content Include="fonts\poppins\poppins-v5-latin-100.woff" />
@@ -147,10 +138,6 @@
     <Content Include="fonts\poppins\poppins-v5-latin-regular.ttf" />
     <Content Include="fonts\poppins\poppins-v5-latin-regular.woff" />
     <Content Include="fonts\poppins\poppins-v5-latin-regular.woff2" />
-    <None Include="Connected Services\ServicioA\SGCPA.wsdl" />
-    <Content Include="Connected Services\ServicioA\Web.ServicioA.mtdRegistrarUsuarioResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
     <None Include="packages.config" />
     <Content Include="form.html" />
     <Content Include="Presentacion\Login\Login.aspx" />
@@ -314,11 +301,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\ServicioA\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
     <Compile Include="Presentacion\Login\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -363,12 +345,7 @@
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\ServicioA\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
