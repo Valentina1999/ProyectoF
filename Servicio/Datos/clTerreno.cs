@@ -14,7 +14,7 @@ namespace Servicio.Datos
 
         clConexion objConexion = new clConexion();
 
-        public int mtdRegistrarTerreno()
+        public int mtdRegistrarTerreno(clTerreno objTerreno)
         {
             string consulta = "insert into Terrenoo(Largo, Ancho, IdUsuario)";
             int Resultado = objConexion.mtdConectado(consulta);

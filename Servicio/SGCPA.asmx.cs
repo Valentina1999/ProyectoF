@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Servicio.Datos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -18,9 +19,11 @@ namespace Servicio
     {
 
         [WebMethod]
-        public string mtdRegistrarTerreno()
+        public int mtdRegistrarTerreno(clTerreno objTerreno)
         {
-            
+            clTerreno objTerre = new clTerreno();
+            int Resultado = objTerre.mtdRegistrarTerreno(objTerreno);
+            return Resultado;
         }
 
         [WebMethod]
