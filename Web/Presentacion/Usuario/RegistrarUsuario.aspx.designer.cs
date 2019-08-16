@@ -7,7 +7,7 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace Web.Presentacion.Usuarios {
+namespace Web.Presentacion.Usuario {
     
     
     public partial class WebForm1 {

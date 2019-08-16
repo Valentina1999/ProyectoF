@@ -19,7 +19,7 @@ namespace Servicio.Datos
 
         public int mtdRegistrarUsuario(clUsuario objClUsuario)
         {
-            string consulta = "Insert Into Usuario(Documento,Nombre, Apellido, Correo, Clave, Numero, IdRol)values('"+objClUsuario.Documento+"','"+objClUsuario.Nombre+"','"+objClUsuario.Apellido+"','"+objClUsuario.Correo+"','"+objClUsuario.Clave+"','"+objClUsuario.Numero+"',"+IdRol+")";
+            string consulta = "Insert Into Usuario(Documento,Nombre, Apellido, Correo, Clave, Numero, IdRol)values('"+objClUsuario.Documento+"','"+objClUsuario.Nombre+"','"+objClUsuario.Apellido+"','"+objClUsuario.Correo+"','"+objClUsuario.Clave+"','"+objClUsuario.Numero+"',"+objClUsuario.IdRol+")";
             clConexion clConexion = new clConexion();
             int resultado = clConexion.mtdConectado(consulta);
             return resultado;
